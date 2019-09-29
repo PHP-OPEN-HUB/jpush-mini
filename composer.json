@@ -1,0 +1,35 @@
+{
+  "name": "nizerin/jpush-mini",
+  "type": "library",
+  "description": "JPush API PHP Client",
+  "homepage": "https://github.com/jpush/jpush-api-php-client",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "nizerin",
+      "email": "nizerin98@gmail.com",
+      "homepage": "https://www.iacblog.com/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ext-curl": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "JPush\\": "src/JPush/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "JPush\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  }
+}
