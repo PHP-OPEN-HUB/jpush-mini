@@ -2,7 +2,7 @@
   "name": "nizerin/jpush-mini",
   "type": "library",
   "description": "JPush API PHP Client",
-  "homepage": "https://github.com/jpush/jpush-api-php-client",
+  "homepage": "https://github.com/PHP-OPEN-HUB/jpush-mini",
   "license": "MIT",
   "authors": [
     {
